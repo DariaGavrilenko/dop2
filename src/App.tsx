@@ -26,6 +26,7 @@ function App() {
       <button onClick={onClickHandler}>Clean Post</button>
       <ul>
         {todos.map(el => {
+<div></div>
           return (
             <li><span>{el.id}</span>
               <span>{el.title}</span>
